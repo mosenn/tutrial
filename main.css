@@ -3,3 +3,23 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 }
+
+body {
+    background-color: #c4c4c4;
+}
+
+section {
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+section>* {
+    font-size: 2rem;
+
+}
+section> div>* {
+    margin:25px;
+}
