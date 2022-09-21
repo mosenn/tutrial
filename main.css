@@ -23,3 +23,13 @@ section>* {
 section> div>* {
     margin:25px;
 }
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
